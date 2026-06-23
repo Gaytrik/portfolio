@@ -27,6 +27,5 @@ function App() {
       <ChatBot />
     </div>
   );
-}
-
+}//main 
 export default App;
