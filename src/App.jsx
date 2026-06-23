@@ -6,7 +6,7 @@ import AboutSection from "./sections/About";
 import Skills from "./sections/Skills";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
-import Certifications from "./sections/certifications";
+import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 import ChatBot from "./sections/ChatBot";
 import ScrollProgress from "./components/ScrollProgress";
