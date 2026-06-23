@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from "react";
 import Navbar from "./components/Navbar";
 import HeroSection from "./sections/Hero";
@@ -27,5 +26,6 @@ function App() {
       <ChatBot />
     </div>
   );
-}//main 
+}
+
 export default App;
