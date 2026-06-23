@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Github, Linkedin, Code2, Mail, ArrowRight, Download, ChevronDown } from "lucide-react";
-
+import profileImg from "../assets/profile2.png"; // adjust path
 function useTypingEffect(words, typingSpeed = 100, deletingSpeed = 60, pauseTime = 1800) {
   const [displayed, setDisplayed] = useState("");
   const [wordIndex, setWordIndex] = useState(0);
@@ -184,7 +184,7 @@ export default function HeroSection() {
             display: "flex", alignItems: "center", justifyContent: "center",
           }}>
             <img
-              src="src/assets/profile2.png"
+              src={profileImg}
               alt="Gaytri Kolhe"
               style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center top", display: "block" }}
               onError={(e) => {
