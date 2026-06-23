@@ -6,6 +6,7 @@ import AboutSection from "./sections/About";
 import Skills from "./sections/Skills";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
+//import Certifications from "./sections/Certifications";
 import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 import ChatBot from "./sections/ChatBot";
